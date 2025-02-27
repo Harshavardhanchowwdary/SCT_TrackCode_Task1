@@ -1,0 +1,320 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Responsive Web design</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css"
+        integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous" />
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
+        integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"
+        crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js"
+        integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN"
+        crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"
+        integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV"
+        crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="landed.css">
+    <script src="https://kit.fontawesome.com/ec974b09d4.js" crossorigin="anonymous"></script>
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Funnel+Display:wght@300..800&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+
+        body {
+            font-family: "Poppins", serif;
+            background-color: #ffea00;
+        }
+
+        #logocolor {
+            color: white;
+            font-weight: 500;
+            transition: 0.4s ease;
+        }
+
+        #logocolor:hover {
+            color: #ffea00;
+        }
+
+        .navbarcolor {
+            background-color: #4e546a;
+        }
+
+        #custome {
+            color: white;
+            font-size: 18px;
+            transition: 0.4s ease;
+        }
+
+        #custome:hover {
+            color: #ffea00;
+        }
+
+        .mainheading {
+            font-weight: 600;
+            font-size: 30px;
+
+        }
+
+        .others1 {
+            color: #ffea00;
+            font-weight: 600;
+        }
+
+        .others {
+            color: #ffea00;
+            font-weight: 600;
+            font-style: italic;
+        }
+
+        .card {
+            background-color: #4e546a;
+            color: white;
+            text-align: center;
+            border-radius: 15px;
+        }
+
+        .coloricon {
+            color: #4e546a;
+            font-size: 30px;
+            margin: 10px;
+            transition: 0.4s ease;
+        }
+
+        .coloricon:hover {
+            color: black;
+            transform: scale(1.3);
+            z-index: 3px;
+        }
+
+        .bcolor {
+            background-color: rgb(0, 0, 0, 0.4);
+            color: black;
+            font-weight: 500;
+            transition: 0.4s;
+            margin: 5px;
+        }
+
+        .bcolor:hover {
+            border-style: solid 4px;
+            border-color: black;
+            background-color: black;
+            box-shadow: 0px 0px 5px 5px black;
+            color: #ffea00;
+        }
+
+        .imgsize {
+            height: 70px;
+            width: 70px;
+            margin-left: 5px;
+            border-radius: 10px;
+        }
+
+        .mainheading1 {
+            font-weight: 500;
+            font-size: 25px;
+            text-align: center;
+            margin-top: 4px;
+        }
+
+        .others2 {
+            color: #4e546a;
+        }
+
+        .ctc {
+            background-color: rgb(0, 0, 0, 0.4);
+            color: black;
+            width: 150px;
+            height: 100px;
+            text-align: center;
+            padding: 12px;
+            border-radius: 10px;
+            transition: 0.4s ease;
+            margin-left: 5px;
+        }
+
+        .ctcheading {
+            font-size: 20px;
+        }
+
+        .ctcpara {
+            font-size: 13px;
+        }
+
+        .ctc:hover {
+            background-color: black;
+            color: #ffea00;
+        }
+
+        .formcss {
+            text-align: center;
+        }
+
+        #userid {
+            background-color: rgb(0, 0, 0, 0.4);
+            color: #ffea00;
+            height: 60px;
+            width: 300px;
+            margin-bottom: 5px;
+            border-radius: 5px;
+            transition: 0.4s ease;
+        }
+
+        #userid:hover {
+            border-style: solid 4px;
+            border-color: black;
+            background-color: black;
+            box-shadow: 0px 0px 5px 5px black;
+            color: #ffea00;
+        }
+
+        #userid1 {
+            height: 60px;
+            width: 300px;
+            color: #ffea00;
+            background-color: rgb(0, 0, 0, 0.4);
+            border-radius: 5px;
+            transition: 0.4s ease;
+        }
+
+        #userid1:hover {
+            border-style: solid 4px;
+            border-color: black;
+            background-color: black;
+            box-shadow: 0px 0px 5px 5px black;
+            color: #ffea00;
+        }
+
+        .form {
+            background-color: whitesmoke;
+            height: 450px;
+            width: 450px;
+            text-align: center;
+            align-items: center;
+            padding-top: 40px;
+            border-radius: 15px;
+        }
+
+        .bcolor1 {
+            background-color: rgb(0, 0, 0, 0.4);
+            color: black;
+            font-weight: 500;
+            transition: 0.4s;
+            margin: 5px;
+            width: 300px;
+            height: 60px;
+            font-size: 19px;
+        }
+
+        .bcolor1:hover {
+            border-style: solid 4px;
+            border-color: black;
+            background-color: black;
+            box-shadow: 0px 0px 5px 5px black;
+            color: #ffea00;
+        }
+    </style>
+</head>
+
+<body class="">
+    <nav class="navbar navbar-expand-lg navbar-dark navbarcolor fixed-top>
+        <a class="navbar-brand" href="#" id="logocolor">COURSE IT.DIO</a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup"
+            aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+            <div class="navbar-nav text-center ml-auto p-2">
+                <a class="nav-link active" href="#" id="custome">Home <span class="sr-only">(current)</span></a>
+                <a class="nav-link" href="#" id="custome">Courses Offered</a>
+                <a class="nav-link" href="#" id="custome">Review</a>
+                <a class="nav-link" href="#" id="custome">Contact Us</a>
+            </div>
+        </div>
+    </nav>
+    <div class="container pt-2">
+        <div class="row">
+            <div class="col-12 col-md-6">
+                <div class="card p-1 pt-2">
+                    <h1 class="mainheading">Online <span class="others1">Learning Platform</span></h1>
+                    <p class="paraheading">Welcome to COURSE IT.Dio ,<span class="others">Your success is our success.
+                        </span>This is right way to land on your dream job in it industries,With us Because we have
+                        <span class="others">200+</span>Hiring partners and thousands of students
+                        were landed on their dream job with industries requried skills and hands-on-experience .If any
+                        queries please refer our social accounts or contact us ,Please fill your details in contact form
+                        in clear details And thankyou for your time.And one small request please watch demo session
+                        before joining Us. It Worth's to you
+                    </p>
+                </div>
+                <br>
+                <div class="d-flex flex-row justify-content-center">
+                    <i class="fa-brands fa-square-twitter coloricon"></i>
+                    <i class="fa-brands fa-square-whatsapp coloricon"></i>
+                    <i class="fa-brands fa-square-facebook coloricon"></i>
+                    <i class="fa-brands fa-square-instagram coloricon"></i>
+                </div>
+                <div class="buttonclass d-flex flex-row justify-content-center">
+                    <button class="btn bcolor">Demosession <svg xmlns="http://www.w3.org/2000/svg" width="16"
+                            height="16" fill="currentColor" class="bi bi-arrow-right-circle" viewBox="0 0 16 16">
+                            <path fill-rule="evenodd"
+                                d="M1 8a7 7 0 1 0 14 0A7 7 0 0 0 1 8m15 0A8 8 0 1 1 0 8a8 8 0 0 1 16 0M4.5 7.5a.5.5 0 0 0 0 1h5.793l-2.147 2.146a.5.5 0 0 0 .708.708l3-3a.5.5 0 0 0 0-.708l-3-3a.5.5 0 1 0-.708.708L10.293 7.5z" />
+                        </svg></button>
+                    <button class="btn bcolor">BookNow <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16"
+                            fill="currentColor" class="bi bi-arrow-right-circle" viewBox="0 0 16 16">
+                            <path fill-rule="evenodd"
+                                d="M1 8a7 7 0 1 0 14 0A7 7 0 0 0 1 8m15 0A8 8 0 1 1 0 8a8 8 0 0 1 16 0M4.5 7.5a.5.5 0 0 0 0 1h5.793l-2.147 2.146a.5.5 0 0 0 .708.708l3-3a.5.5 0 0 0 0-.708l-3-3a.5.5 0 1 0-.708.708L10.293 7.5z" />
+                        </svg></button>
+                </div>
+                <br>
+                <marquee dir="rtl">
+                    <div class="imagesrc d-flex flex-row justify-content-center">
+                        <img src="https://images.forbesindia.com/media/images/2023/Jul/img_214627_banking-transformation-summit-v5.jpg"
+                            class="imgsize" />
+                        <img src="https://tse1.mm.bing.net/th?id=OIP.qBOri_BImdQMhP9TRsa9vwHaEo&pid=Api&P=0&h=180"
+                            class="imgsize" />
+                        <img src="https://tse3.mm.bing.net/th?id=OIP.k8JO4LRYrNw-1wFIWukvSQHaEo&pid=Api&P=0&h=180"
+                            class="imgsize" />
+                        <img src="https://brandongaille.com/wp-content/uploads/2013/07/Intel-Company-Logo.jpg"
+                            class="imgsize" />
+                        <img src="https://fabrikbrands.com/wp-content/uploads/Software-Company-Logos-2.png"
+                            class="imgsize" />
+                        <img src="https://fabrikbrands.com/wp-content/uploads/Software-Company-Logos-22.png"
+                            class="imgsize" />
+                        <img src="https://www.techyv.com/sites/default/users/Images-Folder/Infosys-Ltd.png"
+                            class="imgsize" />
+                    </div>
+                </marquee>
+                <h1 class="mainheading1">Up Skill With <span class="others2">Course IT.Dio</span></h1>
+                <div class="d-flex flex-row headingctc justify-content-center">
+                    <div class="ctc flex-column justify-content-center">
+                        <h1 class="ctcheading">95%</h1>
+                        <p class="ctcpara">Placed With 9 months of duration</p>
+                    </div>
+                    <div class="ctc flex-column justify-content-center">
+                        <h1 class="ctcheading">10 LPA</h1>
+                        <p class="ctcpara">Smart Job</p>
+                    </div>
+                    <div class="ctc flex-column justify-content-center">
+                        <h1 class="ctcheading">21 LPA</h1>
+                        <p class="ctcpara">Super Dream Job</p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-12 col-md-6 d-flex flex-column justify-content-center mt-2">
+                <div class="form ">
+                    <form class="formcss " method="post">
+                        <input type="text" name="username" id="userid" placeholder="Enteryourname">
+                        <input type="text" name="username" id="userid" placeholder="Enteryournumber">
+                        <input type="email" name="username" id="userid" placeholder="example@gmail.com">
+                        <input type="textarea" name="username" id="userid1" placeholder="YourAddress">
+                        <button class="btn bcolor1">Submit</button>
+                        <button class="btn bcolor1">Apply Now</button>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+
+</html>

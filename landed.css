@@ -1,0 +1,169 @@
+@import url('https://fonts.googleapis.com/css2?family=Funnel+Display:wght@300..800&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap'); 
+
+
+body{
+    font-family: "Poppins", serif;
+    background-color: #ffea00;
+}
+
+#logocolor{
+    color: white;
+    font-weight: 500;
+    transition: 0.4s ease;
+}
+#logocolor:hover{
+    color:#ffea00;
+}
+.navbarcolor{
+    background-color: #4e546a;
+}
+#custome{
+    color: white;
+    font-size: 18px;
+    transition: 0.4s ease;
+}
+#custome:hover{
+    color: #ffea00;
+}
+.mainheading{
+    font-weight: 600;
+    font-size:30px;
+
+}
+.others1{
+    color:#ffea00;
+    font-weight: 600;
+} 
+.others{
+    color:#ffea00;
+    font-weight: 600;
+    font-style: italic;
+}
+.card{
+    background-color:#4e546a;
+    color: white;
+    text-align: center;
+    border-radius:15px;
+}
+.coloricon{
+    color: #4e546a;
+    font-size: 30px;
+    margin: 10px;
+    transition: 0.4s ease;
+}
+.coloricon:hover{
+    color:black;
+    transform: scale(1.3);
+    z-index: 3px;
+}
+.bcolor{
+    background-color:rgb(0,0,0,0.4);
+    color: black;
+    font-weight: 500;
+    transition: 0.4s;
+    margin: 5px;
+}
+.bcolor:hover{
+    border-style: solid 4px;
+    border-color: black;
+    background-color: black;
+    box-shadow: 0px 0px 5px 5px black;
+    color: #ffea00;
+}
+.imgsize{
+    height: 70px;
+    width: 70px;
+    margin-left: 5px;
+    border-radius: 10px;
+}
+.mainheading1{
+    font-weight: 500;
+    font-size: 25px;
+    text-align: center;
+    margin-top: 4px;
+}
+.others2{
+    color: #4e546a;
+}
+.ctc{
+    background-color: rgb(0,0,0,0.4);
+    color: black;
+    width: 150px;
+    height: 100px;
+    text-align: center;
+    padding: 12px;
+    border-radius: 10px;
+    transition: 0.4s ease;
+    margin-left: 5px;
+}
+.ctcheading{
+    font-size: 20px;
+}
+.ctcpara{
+    font-size: 13px;
+}
+.ctc:hover{
+    background-color: black;
+    color: #ffea00;
+}
+.formcss{
+    text-align: center;
+}
+#userid{
+    background-color: rgb(0,0,0,0.4);
+    color: #ffea00;
+    height: 60px;
+    width: 300px;
+    margin-bottom: 5px;
+    border-radius: 5px;
+    transition: 0.4s ease;
+}
+#userid:hover{
+    border-style: solid 4px;
+    border-color: black;
+    background-color: black;
+    box-shadow: 0px 0px 5px 5px black;
+    color: #ffea00;
+}
+#userid1{
+    height: 60px;
+    width: 300px;
+    color: #ffea00;
+    background-color: rgb(0,0,0,0.4);
+    border-radius: 5px;
+    transition: 0.4s ease;
+}
+#userid1:hover{
+    border-style: solid 4px;
+    border-color: black;
+    background-color: black;
+    box-shadow: 0px 0px 5px 5px black;
+    color: #ffea00;
+}
+.form{
+    background-color: whitesmoke;
+    height:400px;
+    width: 400px;
+    text-align: center;
+    align-items: center;
+    padding-top: 40px;
+    border-radius: 15px;
+}
+
+.bcolor1{
+    background-color:rgb(0,0,0,0.4);
+    color: black;
+    font-weight: 500;
+    transition: 0.4s;
+    margin: 5px;
+    width: 300px;
+    height: 60px;
+    font-size: 19px;
+}
+.bcolor1:hover{
+    border-style: solid 4px;
+    border-color: black;
+    background-color: black;
+    box-shadow: 0px 0px 5px 5px black;
+    color: #ffea00;
+}
